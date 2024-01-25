@@ -90,6 +90,8 @@ main{
     background-color: red;
     width: 75%;
     background: url(../assets/img/bigimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     }
     
     .right-main{

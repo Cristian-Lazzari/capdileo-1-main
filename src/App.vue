@@ -1,7 +1,8 @@
 <script >
   
   import AppHeader from './components/AppHeader.vue'
-
+  
+  
 
   export default {
   components:{  AppHeader }
@@ -21,5 +22,9 @@
 
 <style lang="scss">
 @use './assets/styles/general.scss' as *;
+
+.container{
+  
+}
 
 </style>

@@ -1,13 +1,13 @@
-import { createRouter, createWebHistory } from "vue-router";
 
+import { createRouter, createWebHistory } from "vue-router";
 import Home from "./pages/Home.vue";
-import ChiSiamo from "./pages/ChiSiamo.vue";
+/*import ChiSiamo from "./pages/ChiSiamo.vue";
 import Contatti from "./pages/Contatti.vue";
 import Menu from "./pages/Menu.vue";
 import Prenota from "./pages/Prenota.vue";
 import Conferma from "./pages/Conferma.vue";
 import PrenotaServizio from "./pages/PrenotaServizio.vue";
-
+*/
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -15,7 +15,8 @@ const router = createRouter({
       path: "/",
       name: "home",
       component: Home,
-    },
+    }
+    /*
     {
       path: "/",
       name: "chi-siamo",
@@ -45,8 +46,7 @@ const router = createRouter({
       path: "/",
       name: "conferma",
       component: Conferma,
-    },
+    },*/
   ],
 });
-
 export { router };
